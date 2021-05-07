@@ -1,0 +1,25 @@
+{
+  "name": "@volcengine/i18n-node",
+  "version": "0.0.1",
+  "description": "i18n solution for nodeJS",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "starling"
+  ],
+  "engines": {
+    "node": ">=10.24.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lru-cache": "^6.0.0",
+    "node-fetch": "^2.6.1",
+    "node-schedule": "^2.0.0"
+  }
+}
